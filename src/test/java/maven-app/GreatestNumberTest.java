@@ -8,6 +8,6 @@ GreatestNumber g=new GreatestNumber();
     @Test
     public void greatestone(){
         int result=g.greatest(3,5);
-		assertEquals(5,result);
+		assertEquals(4,result);
     }
 }
